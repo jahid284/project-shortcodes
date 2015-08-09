@@ -1,0 +1,1675 @@
+
+/*-------------------------------------------------------------
+ *comingsoonOne start
+ *-------------------------------------------------------------*/
+.comingsoonOne {
+	padding: 190px 0 180px;
+}
+.comingsoonOne .logo {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.comingsoonOne h2 {
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.comingsoonOne .countdown-wrapper {
+	background-color: #fff;
+	padding: 100px 0;
+	text-align: center;
+}
+#countdownOne li {
+	font-size: 150px;
+	line-height: 150px;
+	font-weight: 300;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	-webkit-filter: drop-shadow(3px 3px 0px #dadada);
+  	filter: drop-shadow(3px 3px 0px #dadada);
+  	text-shadow: -1px -1px 0px #dadada;
+}
+
+@media (max-width : 767px) {
+	#countdownOne li {
+		font-size: 80px;
+		line-height: 80px;
+	}
+}
+
+/*subscribe-wrapper*/
+.comingsoonOne .subscribe-wrapper {
+	margin: 50px 0 40px;
+}
+.comingsoonOne .subscribe-wrapper input {
+	margin-right: 8px;
+}
+.comingsoonOne .subscribe-wrapper .form-control {
+	height: 40px;
+}
+.comingsoonOne .subscribe-wrapper .form-control:focus {
+  box-shadow: none;
+}
+@media (min-width : 992px)) {
+	.comingsoonOne .form-inline .form-control {
+	  width: 294px;
+	}
+}
+@media (min-width : 768px) and (max-width : 991px) {
+	.comingsoonOne .form-inline .form-control {
+	  width: 280px;
+	}
+}
+
+
+.comingsoonOne .social-links {}
+.comingsoonOne .social-links li{
+	margin-right: 10px;
+}
+.comingsoonOne .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonOne .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonOne .social-links li a:hover{
+	color: #31aae2;
+}
+/*comingsoonOne End*/
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonTwo start
+ *-------------------------------------------------------------*/
+.comingsoonTwo{
+	background: url(../../assets/img/comingsoontwobg.jpg) no-repeat center center;
+	padding: 132px 0px;
+	color: #fff;
+}
+
+.comingsoonTwo .logo {
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.comingsoonTwo h2 {
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.comingsoonTwo h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #fff;
+}
+
+
+
+
+/*countdown-wrapper*/
+.comingsoonTwo .countdown-wrapper {
+    padding: 100px 100px;
+}
+
+.comingsoonTwo .countdown-wrapper ul{
+	border: 1px solid #68aed9;
+
+}
+
+.comingsoonTwo #countdownTwo li {
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #68aed9;
+	padding: 45px 65px 20px 50px;
+}
+
+.comingsoonTwo #countdownTwo li:last-child{
+	border-right: none;
+}
+
+
+@media (max-width : 766px) {
+	.comingsoonTwo #countdownTwo li {
+		margin-bottom: 12px;
+	}
+	.comingsoonTwo .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonTwo #countdownTwo li {
+		min-width: 108px;
+	}
+}
+
+
+.comingsoonTwo #countdownTwo li span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.comingsoonTwo #countdownTwo li p{
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 30px;
+	margin: 0;
+	color: #fff;
+}
+.comingsoonTwo #countdownTwo li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonTwo .subscribe-wrapper {
+	padding: 0 310px;
+}
+.comingsoonTwo .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonTwo .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonTwo .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonTwo .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.comingsoonTwo .subscribe-form .form-control:focus {
+  	box-shadow: none;
+}
+.comingsoonTwo .subscribe-form .btn-black {
+	height: 42px;
+	background-color: #fff;
+	color: #31aae2;
+	font-size: 13px;
+	font-weight: 600;
+	  border: 1px solid #fff;
+}
+
+/*social-links*/
+.comingsoonTwo .social-links {}
+.comingsoonTwo .social-links li a{
+  display: block;
+  height: 50px;
+  width: 50px;
+  line-height: 48px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.comingsoonTwo .social-links li a:hover {
+	color: #31aae2;
+	background-color: #fff;
+	border: 1px solid transparent;
+}
+/*comingsoonTwo End*/
+
+
+/*-------------------------------------------------------------
+ *comingsoonThree start
+ *-------------------------------------------------------------*/
+.comingsoonThree {
+	background: url(../../assets/img/comingsoon/coming-bg-3.jpg) no-repeat center center #a8a8a8;
+	background-size: cover;
+	padding: 170px 0 230px;
+	color: #fff;
+}
+
+.comingsoonThree .logo {
+	margin-bottom: 40px;
+	display: inline-block;
+}
+.comingsoonThree h2 {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 24px;
+}
+
+/*countdown-wrapper*/
+.comingsoonThree .countdown-wrapper {
+    margin: 20px 0 50px;
+}
+.comingsoonThree #countdownThree li {
+	display: inline-block;
+	margin-right: 10px;
+	min-width: 124px;
+	text-align: center;
+}
+@media (max-width : 766px) {
+	.comingsoonThree #countdownThree li {
+		margin-bottom: 12px;
+	}
+	.comingsoonThree .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonThree #countdownThree li {
+		min-width: 108px;
+	}
+}
+
+.comingsoonThree #countdownThree li:last-child {
+  margin-right: 0
+}
+.comingsoonThree #countdownThree li span {
+  display: block;
+  font-size: 50px;
+  line-height: 133px;
+  font-weight: 600;
+  color: #313131;
+  border: 1px solid #313131;
+}
+.comingsoonThree #countdownThree li p{
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 35px;
+  margin: 0;
+  color: #fff;
+  background: #313131;
+}
+.comingsoonThree #countdownThree li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonThree .subscribe-wrapper {}
+.comingsoonThree .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonThree .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonThree .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonThree .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid #313131;
+}
+.comingsoonThree .subscribe-form .form-control:focus {
+  box-shadow: none;
+}
+.comingsoonThree .subscribe-form .btn-black {
+	height: 42px;
+	background-color: #313131;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*social-links*/
+.comingsoonThree .social-links {}
+.comingsoonThree .social-links li a{
+  display: block;
+  height: 50px;
+  width: 50px;
+  line-height: 48px;
+  font-size: 20px;
+  color: #6b6b6b;
+  border: 1px solid #6b6b6b;
+  border-radius: 50%;
+  text-align: center;
+}
+.comingsoonThree .social-links li a:hover {
+	color: #fff;
+	background-color: #313131;
+	border: 1px solid transparent;
+}
+/*comingsoonThree end*/
+
+
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonFour start
+ *-------------------------------------------------------------*/
+ .comingsoonFour{
+	background: url(../../assets/img/comingsoonfourbg.jpg) no-repeat center center;
+	padding: 190px 0px;
+	color: #fff;
+}
+
+.comingsoonFour .logo {
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.comingsoonFour h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+.comingsoonFour h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.comingsoonFour h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*countdown-wrapper*/
+.comingsoonFour .countdown-wrapper {
+    margin: 20px 0 50px;
+}
+.comingsoonFour #countdownFour li {
+	display: inline-block;
+	margin-right: 15px;
+	min-width: 132px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 2%;
+	position: relative;
+}
+
+.comingsoonFour #countdownFour li::before{
+	content: "";
+	background: #fff;
+	height: 94px;
+	width: 1px;
+	position: absolute;
+}
+
+.comingsoonFour #countdownFour li:last-child {
+  margin-right: 0
+}
+.comingsoonFour #countdownFour li span {
+	display: block;
+	font-size: 50px;
+	padding: 35px 0px 35px 35px;
+	font-weight: 300;
+	letter-spacing: 35px;
+}
+.comingsoonFour #countdownFour li p{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+	padding: 10px 0;
+	color: #fff;
+	border-top: 1px solid #fff;
+}
+.comingsoonFour #countdownFour li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonFour .subscribe-wrapper {
+	padding: 0 380px;
+}
+.comingsoonFour .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+
+/*subscribe-form*/
+.comingsoonFour .subscribe-form {
+	margin-bottom: 165px;
+}
+
+.comingsoonFour .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.comingsoonFour .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	
+}
+.comingsoonFour .subscribe-form .btn-black {
+	height: 40px;
+	background-color: #fff;
+	color: #31aae2;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.comingsoonFour .subscribe-form input[type="submit"] {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #31aae2;
+    border: 1px solid #31aae2;
+    transition: all 0.7s;
+}
+
+.comingsoonFour .subscribe-form input[type="submit"]:hover{
+    border: 1px solid #31aae2;
+    color: #000;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.comingsoonFour .subscribe-form::-webkit-input-placeholder {
+    color:    #fff;
+}
+
+/*Comingsoon Four logo*/
+.comingsoonFour-footer span{
+	color: #a5acb3;
+	margin-left: 20px;
+}
+
+/*social-links*/
+.comingsoonFour .social-links {}
+.comingsoonFour .social-links li a{
+	display: block;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #a5acb5;
+	border: 1px solid #a5acb5;
+	border-radius: 12%;
+	text-align: center;
+}
+.comingsoonFour .social-links li a:hover {
+	color: #31aae2;
+	background-color: transparent;
+	border: 1px solid #31aae2;
+}
+/*comingsoonFour End*/
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonFive start
+ *-------------------------------------------------------------*/
+ .comingsoonFive {
+	background: url(../../assets/img/comingsoonfivebg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 152px 0 96px 0;
+	color: #fff;
+}
+
+.comingsoonFive .logo {
+	margin-bottom: 35px;
+	display: inline-block;
+}
+.comingsoonFive h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 600;
+	margin-bottom: 24px;
+	color: #fff;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+}
+
+.comingsoonFive h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.introstyleFive p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #969595;
+	padding: 0 270px;
+}
+
+/*countdown-wrapper*/
+.comingsoonFive .countdown-wrapper {
+    background-color: rgba(0, 0, 0, 0.56);
+    margin: 65px 0;
+}
+
+
+.comingsoonFive #countdownFive li {
+	display: inline-block;
+	text-align: center;
+	padding: 84px 55px 66px 55px;
+}
+
+
+@media (max-width : 766px) {
+	.comingsoonFive #countdownFive li {
+		margin-bottom: 12px;
+	}
+	.comingsoonFive .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonFive #countdownFive li {
+		min-width: 108px;
+	}
+}
+
+
+.comingsoonFive #countdownFive li span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	line-height: 30px;
+	font-weight: 600;
+	padding-bottom: 17px;
+	border-bottom: 2px solid #2c2c2e;
+}
+.comingsoonFive #countdownFive li p{
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin: 0;
+	color: #31aae2;
+	margin-top: 53px;
+}
+.comingsoonFive #countdownFive li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonFive .subscribe-form{
+	padding: 0 310px;
+}
+.comingsoonFive .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonFive .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonFive .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonFive .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.comingsoonFive .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	border: 2px solid #31aae2 !important;
+}
+.comingsoonFive .subscribe-form .btn-black {
+	height: 42px;
+	background-color: #fff;
+	color: #9e9d9d;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+}
+
+/*social-links*/
+.comingsoonFive .social-links {}
+.comingsoonFive .social-links li{
+	margin-right: 10px;
+}
+.comingsoonFive .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonFive .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonFive .social-links li a:hover{
+	color: #fff;
+}
+/*comingsoonFive end*/
+
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonSix start
+ *-------------------------------------------------------------*/
+ .comingsoonSix {
+	background: url(../../assets/img/comingsoonsixbg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 152px 0 96px 0;
+	color: #fff;
+}
+
+.comingsoonSix .logo {
+	margin-bottom: 35px;
+	display: inline-block;
+}
+.comingsoonSix h2 {
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 6px;
+	color: #fff;
+}
+
+.comingsoonSix h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.introstylesix p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0 270px;
+}
+
+/*countdown-wrapper*/
+.comingsoonSix .countdown-wrapper {
+   /* background-color: rgba(0, 0, 0, 0.56);*/
+    margin: 65px 0;
+}
+
+
+.comingsoonSix #countdownSix li {
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+	text-align: center;
+	z-index: 100;
+}
+
+.comingsoonSix #countdownSix li::before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	background: rgba(245, 235, 235, 0.3);
+	width: 100%;
+	height: 40%;
+	z-index: -1;
+}
+
+.comingsoonSix #countdownSix li::after{
+	content: ':';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 66px;
+	line-height: 170px;
+	font-weight: 300;
+	top: 0;
+	left: 0;
+	margin-left: 117px;
+	position: absolute;
+}
+
+.comingsoonSix #countdownSix li:last-child::after{
+	content: '';
+}
+
+
+@media (max-width : 766px) {
+	.comingsoonSix #countdownSix li {
+		margin-bottom: 12px;
+	}
+	.comingsoonSix .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonSix #countdownSix li {
+		min-width: 108px;
+	}
+}
+
+.comingsoonSix #countdownSix li:last-child {
+	margin-right: 0
+}
+.comingsoonSix #countdownSix li span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: block;
+	font-size: 80px;
+	line-height: 170px;
+	font-weight: 300;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 0 20px;
+}
+
+.comingsoonSix #countdownSix li p{
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 35px;
+  margin: 0;
+  color: #fff;
+  background: transparent;
+}
+.comingsoonSix #countdownSix li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonSix .subscribe-form{
+	padding: 0 360px;
+}
+
+/*subscribe-form*/
+.comingsoonSix .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonSix .subscribe-form .form-control {
+	height: 42px;
+	background-color: rgba(107, 107, 116, 0.48);
+	border: 1px solid transparent;
+	
+	color: #fff;
+	
+}
+.comingsoonSix .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	border: 1px solid #31aae2 !important;
+}
+
+.comingsoonSix .input-group-btn>.btn{
+	padding: 0 15px;
+}
+.comingsoonSix .subscribe-form .btn-black {
+	height: 42px;
+	background-color: #31aae2;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 1px solid #31aae2;
+}
+
+/*social-links*/
+.comingsoonSix .social-links {}
+.comingsoonSix .social-links li{
+	margin-right: 10px;
+}
+.comingsoonSix .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonSix .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonSix .social-links li a:hover{
+	color: #fff;
+}
+/*comingsoonSix end*/
+
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonSeven start
+ *-------------------------------------------------------------*/
+ .comingsoonSeven {
+	background: url(../../assets/img/comingsoonsevenbg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 255px 0 255px 0;
+	color: #fff;
+}
+
+.comingsoonSeven .logo {
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.comingsoonSeven h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	line-height: 34px;
+	font-weight: 400;
+	color: #fff;
+}
+
+
+
+.introstyle p{
+	font-size: 15px;
+	line-height: 34px;
+	font-weight: 400;
+	font-style: italic;
+	color: #969595;
+	padding: 0 270px;
+}
+
+/*countdown-wrapper*/
+.comingsoonSeven .countdown-wrapper {
+   /* background-color: rgba(0, 0, 0, 0.56);*/
+    margin: 50px 0 65px 0;
+}
+
+
+.comingsoonSeven #countdownSeven li {
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+	text-align: center;
+	z-index: 100;
+}
+
+.comingsoonSeven #countdownSeven li::after{
+	content: ':';
+	font-size: 66px;
+	line-height: 170px;
+	font-weight: 300;
+	top: -35px;
+	left: 0;
+	margin-left: 132px;
+	position: absolute;
+}
+
+.comingsoonSeven #countdownSeven li:last-child::after{
+	content: '';
+}
+
+
+@media (max-width : 766px) {
+	.comingsoonSeven #countdownSeven li {
+		margin-bottom: 12px;
+	}
+	.comingsoonSeven .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonSeven #countdownSeven li {
+		min-width: 108px;
+	}
+}
+
+.comingsoonSeven #countdownSeven li:last-child {
+	margin-right: 0
+}
+.comingsoonSeven #countdownSeven li span {
+	display: block;
+	font-size: 45px;
+	line-height: 110px;
+	font-weight: 600;
+	color: #fff;
+	background: #31aae2;
+	border: 5px solid rgba(0, 0, 0, 0.17);
+	border-radius: 50%;
+	padding: 1px 31px;
+}
+
+.comingsoonSeven #countdownSeven li p{
+  	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin: 0;
+	color: #fff;
+	margin-top: 10px;
+}
+.comingsoonSeven #countdownSeven li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonSeven .subscribe-form{
+	padding: 0 300px;
+}
+.comingsoonSeven .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonSeven .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonSeven .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonSeven .subscribe-form .form-control {
+	height: 48px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.comingsoonSeven .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	border: 1px solid #31aae2 !important;
+}
+.comingsoonSeven .subscribe-form .btn-black {
+	height: 48px;
+	background-color: transparent;
+	color: #9e9d9d;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-left: -65px;
+	border-color: transparent;
+}
+
+.comingsoonSeven .fa-check{
+	color: #fff;
+}
+
+/*social-links*/
+.comingsoonSeven .social-links {}
+.comingsoonSeven .social-links li{
+	margin-right: 17px;
+}
+.comingsoonSeven .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonSeven .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonSeven .social-links li a:hover{
+	color: #fff;
+}
+/*comingsoonSeven end*/
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonEight start
+ *-------------------------------------------------------------*/
+ .comingsoonEight {
+	background: url(../../assets/img/comingsooneightbg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 204px 0 204px 0;
+	color: #fff;
+}
+
+.comingsoonEight .logo {
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.comingsoonEight h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.comingsoonEight h3 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 22px;
+}
+
+.introstyleeight p{
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 400;
+	font-style: italic;
+	color: #fff;
+	padding: 0 270px;
+}
+
+/*countdown-wrapper*/
+.comingsoonEight .countdown-wrapper {
+   /* background-color: rgba(0, 0, 0, 0.56);*/
+    margin: 50px 0 65px 0;
+}
+
+
+.comingsoonEight #countdownEight li {
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+	text-align: center;
+	z-index: 100;
+}
+
+
+
+@media (max-width : 766px) {
+	.comingsoonEight #countdownSeven li {
+		margin-bottom: 12px;
+	}
+	.comingsoonEight .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonEight #countdownEight li {
+		min-width: 108px;
+	}
+}
+
+.comingsoonEight #countdownEight li:last-child {
+	margin-right: 0
+}
+.comingsoonEight #countdownEight li span {
+	display: block;
+	font-size: 45px;
+	line-height: 110px;
+	font-weight: 400;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 1px 31px;
+}
+
+.comingsoonEight #countdownEight li p{
+  	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin: 0;
+	color: #fff;
+	margin-top: 10px;
+}
+.comingsoonEight #countdownEight li span:hover {
+    cursor: pointer;
+}
+
+
+
+/*social-links*/
+.comingsoonEight .social-links li{
+	display: inline-block;
+	margin-right: 8px;
+}
+.comingsoonEight .social-links li a{
+	display: block;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #fff;
+	background: #74c4e9;
+	border-radius: 50%;
+	text-align: center;
+}
+.comingsoonEight .social-links li a:hover {
+	color: #74c4e9;
+	background-color: #fff;
+}
+/*comingsoonEight end*/
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonNine start
+ *-------------------------------------------------------------*/
+.comingsoonNine {
+	background: url(../../assets/img/comingsoonninebg.jpg) no-repeat center center #a8a8a8;
+	background-size: cover;
+	padding: 170px 0 150px;
+	color: #fff;
+	position: relative;
+	z-index: 100;
+}
+
+.comingsoonNine::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.76);
+	height: 100%;
+	width: 54%;
+	z-index: -1;
+}
+
+.comingsoonNine .logo {
+	margin-bottom: 36px;
+	display: inline-block;
+}
+.comingsoonNine h2 {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 24px;
+	color: #fff;
+	padding-right: 165px;
+}
+
+.comingsoonNine p{
+	margin-bottom: 62px;
+	color: #969595;
+}
+
+.comingsoonNine .countdown-wrapper h3{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #31aae2;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+.comingsoonNine .countdown-wrapper i{
+	margin-right: 5px;
+}
+
+
+/*countdown-wrapper*/
+.comingsoonNine .countdown-wrapper {
+    margin: 20px 0 50px;
+}
+
+.comingsoonNine #countdownNine li {
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #5d5654;
+	padding: 10px 40px 0px 35px;
+}
+
+
+@media (max-width : 766px) {
+	.comingsoonNine #countdownNine li {
+		margin-bottom: 12px;
+	}
+	.comingsoonNine .social-links li a {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 479px) {
+	.comingsoonNine #countdownNine li {
+		min-width: 108px;
+	}
+}
+
+
+.comingsoonNine #countdownNine li span {
+	font-size: 50px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.comingsoonNine #countdownNine li p{
+	font-size: 13px;
+	line-height: 30px;
+	margin: 0;
+	color: #969595;
+}
+.comingsoonNine #countdownNine li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+.comingsoonNine .subscribe-wrapper {
+	padding-right: 65px;
+}
+
+/*subscribe-form*/
+.comingsoonNine .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonNine .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid #fff;
+}
+.comingsoonNine .subscribe-form .form-control:focus {
+  box-shadow: none;
+}
+.comingsoonNine .subscribe-form .btn-black {
+	margin-left: 10px;
+	height: 42px;
+	background-color: #fff;
+	color: #31aae2;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*social-links*/
+.comingsoonNine .social-links {}
+.comingsoonNine .social-links li{
+	margin-right: 10px;
+}
+.comingsoonNine .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonNine .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonNine .social-links li a:hover{
+	color: #fff;
+}
+/*comingsoonNine end*/
+
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonTen start
+ *-------------------------------------------------------------*/
+.comingsoonTen {
+	padding: 95px 0 108px;
+}
+.comingsoonTen .logo {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.comingsoonTen h2 {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.comingsoonTen .countdown-wrapper {
+	background-color: #fff;
+	padding: 200px 0;
+	text-align: center;
+}
+
+.comingsoonTen .countdown-wrapper h3{
+	font-size: 300px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #fff;
+	-webkit-filter: drop-shadow(7px 10px 0px #dadada);
+    filter: drop-shadow(7px 10px 0px #dadada);
+    text-shadow: -1px -1px 0px #dadada;
+}
+
+/*subscribe-wrapper*/
+.comingsoonTen .subscribe-wrapper {
+	margin: 50px 0 40px;
+}
+
+.comingsoonTen .btn-black {
+	margin-left: 10px;
+	height: 42px;
+	background-color: #fff;
+	border: 1px solid #313131;
+	color: #313131;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*comingsoonTen End*/
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonEleven start
+ *-------------------------------------------------------------*/
+.comingsoonEleven {
+	background: url(../../assets/img/comingsoonelevenbg.jpg) no-repeat center center;
+	background-size: cover; 
+	padding: 95px 0 600px;
+	position: relative;
+}
+.comingsoonEleven .logo {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.comingsoonEleven h2 {
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+.comingsoonEleven p{
+	margin-bottom: 62px;
+	color: #fff;
+	font-size: 15px;
+	line-height: 34px;
+	font-style: italic;
+}
+
+.comingsooneleven-error img{
+	position: absolute;
+	margin-left: 285px;
+	margin-top: 81px;
+}
+/*comingsoonEleven End*/
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonTwelve start
+ *-------------------------------------------------------------*/
+ .comingsoonTwelve {
+	background: url(../../assets/img/comingsoonsevenbg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 255px 0 245px 0;
+	color: #fff;
+}
+
+.comingsoonTwelve .logo {
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.comingsoonTwelve h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	line-height: 34px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.introstyle-twelve p{
+	font-size: 15px;
+	line-height: 34px;
+	font-weight: 400;
+	font-style: italic;
+	color: #969595;
+}
+
+.comingsoonTwelve h3{
+	font-size: 100px;
+	line-height: 80px;
+	font-weight: 800;
+	color: #fff;
+	padding: 32px 0 72px 0px;
+	text-transform: uppercase;
+}
+
+
+/*subscribe-wrapper*/
+.comingsoonTwelve .subscribe-form{
+	padding: 0 300px;
+}
+.comingsoonTwelve .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonTwelve .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonTwelve .subscribe-form .input-group {
+	margin-bottom: 20px;
+}
+.comingsoonTwelve .subscribe-form .form-control {
+	height: 48px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.comingsoonTwelve .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	border: 1px solid #31aae2 !important;
+}
+.comingsoonTwelve .subscribe-form .btn-black {
+	height: 48px;
+	background-color: transparent;
+	color: #9e9d9d;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-left: -65px;
+	border-color: transparent;
+}
+
+.comingsoonTwelve i{
+	color: #fff;
+}
+/*comingsoonTwelve end*/
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonTherteen start
+ *-------------------------------------------------------------*/
+ .comingsoonTherteen {
+	background: url(../../assets/img/comingsoonfivebg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 152px 0 96px 0;
+	color: #fff;
+}
+
+.comingsoonTherteen .logo {
+	margin-bottom: 35px;
+	display: inline-block;
+}
+.comingsoonTherteen h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 600;
+	margin-bottom: 24px;
+	color: #fff;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+}
+
+.comingsoonTherteen h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.introstyle-therteen p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #969595;
+	padding: 0 270px;
+}
+
+/*countdown-wrapper*/
+.comingsoonTherteen .not-found {
+    background-color: rgba(0, 0, 0, 0.56);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*padding: 65px 0;*/
+}
+
+
+
+@media (max-width : 766px) {
+	
+}
+@media only screen and (max-width : 479px) {
+	
+}
+
+
+.comingsoonTherteen .big-text {
+	display: block;
+	font-size: 160px;
+	line-height: 160px;
+	font-weight: 600;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+
+.comingsoonTherteen .small-text{
+	display: inline-block;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-bottom: 60px;
+	padding-top: 6px;
+	color: #31aae2;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	position: relative;
+	
+}
+
+.comingsoonTherteen .small-text::before{
+	content: "";
+	top: 0;
+	left: 50%;
+	margin-left: -70px;
+	background-color: #59574f;
+	width: 140px;
+	height: 2px;
+	position: absolute;
+}
+
+/*subscribe-wrapper*/
+.comingsoonTherteen .subscribe-form{
+	padding: 0 310px;
+}
+.comingsoonTherteen .subscribe-wrapper h3{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.comingsoonTherteen .subscribe-wrapper p {
+	margin-bottom: 30px;
+}
+/*subscribe-form*/
+.comingsoonTherteen .subscribe-form {
+	margin-bottom: 45px;
+}
+.comingsoonTherteen .subscribe-form .form-control {
+	height: 42px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.comingsoonTherteen .subscribe-form .form-control:focus {
+  	box-shadow: none;
+  	border: 2px solid #31aae2 !important;
+}
+.comingsoonTherteen .subscribe-form .btn-black {
+	height: 42px;
+	background-color: #fff;
+	color: #9e9d9d;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+}
+
+/*social-links*/
+.comingsoonTherteen .social-links {}
+.comingsoonTherteen .social-links li{
+	margin-right: 10px;
+}
+.comingsoonTherteen .social-links li:last-child{
+	margin-right: 0;
+}
+.comingsoonTherteen .social-links li a{
+	display: block;
+	color: #969595;
+	font-size: 20px;
+}
+.comingsoonTherteen .social-links li a:hover{
+	color: #fff;
+}
+/*comingsoonFive end*/
+
+
+
+
+/*-------------------------------------------------------------
+ *comingsoonFourteen start
+ *-------------------------------------------------------------*/
+.comingsoonFourteen{
+	padding: 153px 0;
+	background-color: #f9f9f9;
+}
+
+.comingsoonFourteen .logo {
+	margin-bottom: 35px;
+	display: inline-block;
+}
+
+ .comingsoonFourteen .left-side span{
+ 	display: block;
+ 	font-size: 150px;
+ 	line-height: 100px;
+ 	font-style: italic;
+ 	font-weight: 400px;
+ 	color: #3f8ccb;
+ 	padding-left: 10px;
+ 	padding-top: 100px;
+ 	letter-spacing: -16px;
+ 	
+ }
+
+
+.comingsoonFourteen .right-side{
+	padding-left: 68px;
+	border-left: 1px solid #f1f1f1;
+}
+
+.comingsoonFourteen .right-side h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	color: #313131;
+}
+
+.comingsoonFourteen .right-side h3 {
+	font-size: 20px;
+	line-height: 30px;
+	color: #31aae2;
+}
+
+.comingsoonFourteen .right-side p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #969595;
+	padding: 12px 0 50px 0;
+}

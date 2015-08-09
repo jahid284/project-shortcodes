@@ -1,0 +1,863 @@
+/* ===================================================
+Login & Signup Forms Start
+====================================================== */
+
+
+
+
+
+
+
+/*loginOne start*/
+.loginFormOne {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+}
+.loginFormOne .form-control {
+	height: 43px;
+	padding: 10px 20px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.loginFormOne button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormOne button.btn:focus,
+.loginFormOne button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormOne .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormOne .lost-password:hover {
+	color: #31aae2;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+	.loginFormOne button.btn,
+	.loginFormFive button.btn{
+		display: block;
+		width: 100% !important;
+	}
+	.loginFormOne a.pull-right,
+	.loginFormFive button.btn {
+	float: left !important;
+		}
+}
+
+
+/*loginOne end*/
+
+
+/*loginTwo start*/
+
+.loginTwo {
+	background: #f9f9f9;
+}
+.loginFormTwo {
+	background: #ffffff;
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+}
+.loginFormTwo .check-box-area {
+	margin-bottom: 10px;
+}
+
+
+
+
+.loginTwo-e,.loginTwo-p{
+	position: relative;
+}
+
+.loginTwo .form-group.i-password:after,
+.loginTwo .form-group.i-email:after{
+	position: absolute;
+	left: 14px;
+	top: 11px;
+	font-family: "FontAwesome";
+}
+
+
+.loginTwo .form-group.i-email:after{
+	content: "\f003";
+	
+}
+.loginTwo .form-group.i-password:after{
+	content: "\f13e";
+	
+}
+
+.loginFormTwo .form-control {
+	height: 43px;
+	padding: 10px 35px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.loginFormTwo button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormTwo button.btn:focus,
+.loginFormTwo button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormTwo .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormTwo .lost-password:hover {
+	color: #31aae2;
+}
+
+@media (max-width : 766px) {
+	.loginFormTwo a.pull-right,
+	.loginFormThree a.pull-right,
+	.loginFormFour a.pull-right,
+	.loginFormFive a.pull-right  {
+		float: left !important;
+	}
+	
+}
+
+/*loginTwo end */
+
+
+/*loginThree start*/
+.loginFormThree {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+	background: #313131;
+}
+.loginFormThree .form-control {
+	height: 43px;
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 1px solid #4a4a4a;
+	text-align: center;
+}
+
+.reg-area{
+	margin-top: 10px;
+}
+.loginFormThree button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormThree button.btn:focus,
+.loginFormThree button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormThree .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormThree .lost-password:hover {
+	color: #31aae2;
+}
+/*loginThree end*/
+
+
+
+/*loginFour start*/
+.loginFour {
+	background: #f9f9f9;
+}
+.loginFormFour {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+	border-radius: 5px;
+	background-color: #fff;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.loginFormFour .form-control {
+	height: 43px;
+	padding: 10px 20px;	
+	border: 1px solid #f9f9f9;
+	border-right: 1px solid #efefef;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+    color: #a5a4a4;
+
+}
+.loginFormFour .form-control:focus {
+	border: 1px solid #313131 !important; 
+}
+.loginFormFour .four-mail,.loginFormFour .four-password {
+	position: relative;
+}
+.loginFormFour .i-mail:after,.loginFormFour .i-password:after {
+	position: absolute;
+  	font-family: "FontAwesome";
+  	right: 12px;
+  	left: auto;
+  	border-left: 1px solid #efefef;
+  	padding-left: 10px;
+  	color: #e0e0e0;
+  	width: 25px;
+  	font-size: 13px;
+}
+.loginFormFour .i-mail:after {
+	content: "\f003";
+}
+.loginFormFour .i-password:after{
+	content: "\f13e";
+}
+
+.loginFormFour .reg-area{
+	padding-top: 25px;
+	border-top: 1px solid #f9f9f9;
+}
+
+
+
+.loginFormFour button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.formFour-reg-text {
+	background: #f1f1f1;
+	padding: 20px 0px;
+}
+.formFour-reg-text p a {
+	color: #91c8e8;
+	padding-left: 10px;
+	-webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.formFour-reg-text p a:hover {
+	color: #00A1FF;
+}
+
+
+.loginFormFour button.btn:focus,
+.loginFormFour button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormFour .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormFour .lost-password:hover {
+	color: #31aae2;
+}
+/*loginFour end*/
+
+
+
+/*loginFive start*/
+.loginFormFive {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+}
+.loginFormFive .form-control {
+	height: 43px;
+	padding: 10px 20px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.loginFormFive label{
+	color: #a6a5a5;
+	font-weight: normal;
+}
+.loginFormFive button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormFive button.btn:focus,
+.loginFormFive button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormFive .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormFive .lost-password:hover {
+	color: #31aae2;
+}
+/*loginFive end*/
+
+
+
+/*loginSix start*/
+.loginSix {
+	background: url('../../assets/img/login-7-bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+.login-six-bg {
+	padding: 20px;
+	background: rgba(90, 154, 208, 0.52);
+}
+.loginFormSix {
+	padding: 50px;
+	background-color: #384149;
+	background: #374149;
+}
+.loginFormSix .form-control {
+	height: 43px;
+	padding: 10px 20px;	
+	-webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+    background: transparent;
+    border: 1px solid #969595;
+    color: #a5a4a4;
+
+}
+
+.loginFormSix .form-control:focus{
+	border: 1px solid #313131 !important; 
+}
+
+.loginFormSix .form-group {
+	margin-bottom: 10px;
+}
+
+.input-icon {
+	position: relative;
+}
+.input-icon-ad {
+	position: absolute;
+	z-index: 10000;
+	right: 10px;
+	top: 9px;
+	font-size: 13px;
+	color: #969595;
+}
+
+.loginFormSix button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+    border-radius: 0px;
+}
+.loginFormSix button.btn-default {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+
+.loginFormSix button.btn-default:focus,
+.loginFormSix button.btn-default:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginSix .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginSix .lost-password:hover {
+	color: #31aae2;
+}
+/*loginSix end*/
+
+
+
+/*loginSeven start*/
+.loginFormSeven {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+}
+.loginFormSeven .form-control {
+	height: 43px;
+	padding: 10px 20px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+
+.loginFormSeven .form-group .checkbox{
+	font-size: 12px;
+}
+
+
+.loginFormSeven button.btn{
+	text-transform: uppercase;
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormSeven button.btn:focus,
+.loginFormSeven button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormSeven .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormSeven .lost-password:hover {
+	color: #31aae2;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+	.loginFormSeven button.btn {
+		width: 100%;
+	}
+	
+}
+
+
+/*loginSeven end*/
+
+
+/*loginEight start*/
+
+.loginEight {
+	background: #f9f9f9;
+}
+
+.loginFormEight {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+	background: #fff;
+}
+
+
+.loginFormEight .form-group .checkbox {
+  font-size: 12px;
+  padding: 10px 0px;
+}
+
+.eight-user,
+.eight-password,
+.eight-password-c,
+.eight-email,
+.eight-fname,
+.eight-lname{
+	position: relative;
+}
+.i-user:after,
+.i-password:after,
+.i-password-c:after,
+.i-mail:after,
+.i-fname:after,
+.i-lname:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	top: 10px;
+	left: 10px;
+}
+.i-user:after{
+	content: "\f007";
+}
+.i-password:after{
+	content: "\f023";
+	
+}
+.i-password-c:after{
+	content: "\f084";
+}
+
+.i-mail:after{
+	content: "\f003";
+}
+
+.i-fname:after{
+	content: "\f040";
+}
+.i-lname:after{
+	content: "\f0f3";
+}
+
+
+
+.loginFormEight .form-control {
+	height: 43px;
+	padding: 10px 30px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.loginFormEight button.btn{
+	text-transform: uppercase;
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormEight button.btn:focus,
+.loginFormEight button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormEight .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormEight .lost-password:hover {
+	color: #31aae2;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+	.loginFormEight button.btn {
+		width: 100%;
+	}
+	
+	.loginFormEight a.pull-right{
+		float: left !important;
+	}
+}
+
+
+/*loginEight end */
+
+
+/*loginNine start*/
+.loginFormNine {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+	background: #313131;
+}
+.loginFormNine .form-control {
+	height: 43px;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid #4a4a4a;
+}
+.checkbox {
+	font-size: 12px;
+}
+
+.loginFormNine button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormNine button.btn:focus,
+.loginFormNine button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormNine .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormNine .lost-password:hover {
+	color: #31aae2;
+}
+/*loginNine end*/
+
+
+
+
+
+
+
+
+/*loginTen start*/
+
+.loginTen {
+	background: #f9f9f9;
+}
+
+.loginFormTen {
+	padding: 50px;
+	border: 1px solid #F1F1F1;
+	background: #fff;
+}
+
+.ten-user,
+.ten-password,
+.ten-password-c,
+.ten-email,
+.ten-fname,
+.ten-lname{
+	position: relative;
+}
+.i-user:after,
+.i-password:after,
+.i-password-c:after,
+.i-mail:after,
+.i-fname:after,
+.i-lname:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	top: 10px;
+	left: 10px;
+}
+.i-user:after{
+	content: "\f007";
+}
+.i-password:after{
+	content: "\f023";
+	
+}
+.i-password-c:after{
+	content: "\f084";
+}
+
+.i-mail:after{
+	content: "\f003";
+}
+
+.i-fname:after{
+	content: "\f040";
+}
+.i-lname:after{
+	content: "\f0f3";
+}
+
+
+
+.loginFormTen .form-control {
+	height: 43px;
+	padding: 10px 30px;
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.loginFormTen button.btn{
+	text-transform: uppercase;
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormTen button.btn:focus,
+.loginFormTen button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormTen .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormTen .lost-password:hover {
+	color: #31aae2;
+}
+
+
+
+/*loginTen end */
+
+
+
+
+
+/*loginEleven start*/
+.loginFormEleven {
+	padding: 50px;
+	border: 1px solid #f1f1f1;
+	
+}
+.loginFormEleven .form-control {
+	height: 43px;	
+	background-color: #f9f9f9;
+	border: 1px solid #f9f9f9;
+	-webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+
+}
+.loginFormEleven label {
+	font-weight: 400;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: left !important;
+}
+
+.loginFormEleven .form-group .control-label {
+  
+  text-align: left !important;
+}
+.loginFormEleven .form-control:focus {
+	
+	border: 1px solid #313131 !important;
+}
+
+#eleven-country  {
+	padding: 0px 10px;
+}
+.loginFormEleven .cpatcha-area{
+	padding: 0px 15px;
+}
+.loginFormEleven button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.loginFormNine button.btn-primary {
+	border-color: #31aae2;
+	color: #fff;
+}
+.loginFormEleven button.btn-primary:focus,
+.loginFormEleven button.btn-primary:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormEleven .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormEleven .lost-password:hover {
+	color: #31aae2;
+}
+
+
+
+
+/*loginEleven end*/
+
+
+
+
+/*loginTwelve start*/
+.loginTwelve {
+	background: url('../../assets/img/login-12.jpg') no-repeat center center;
+	background-size: cover;
+}
+.loginFormTwelve {
+	padding: 50px;
+	
+}
+.loginFormTwelve .form-control {
+	color: #fff;
+	height: 53px;	
+	background-color: rgba(140, 135, 128, 0.48);
+	border: 1px solid transparent;
+}
+
+.loginFormTwelve .form-group {
+	margin-bottom: 10px !important;
+}
+
+
+
+ .loginFormTwelve .form-group ::-webkit-input-placeholder{
+    color:    #fff;
+}
+.loginFormTwelve .form-group :-moz-placeholder{
+    color:    #fff;
+}
+.loginFormTwelve .form-group ::-moz-placeholder{
+    color:    #fff;
+}
+.loginFormTwelve .form-group :-ms-input-placeholder{
+    color:    #fff;
+}
+
+.checkbox-twelve {
+	color: #fff;
+}
+.loginFormTwelve .checkbox {
+	font-size: 12px;
+}
+
+.loginFormTwelve button.btn{
+	padding: 11px 30px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+    border-radius: 5px;
+}
+.loginFormTwelve button.btn:focus,
+.loginFormTwelve button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+.loginFormTwelve .lost-password {
+	display: inline-block;
+	line-height: 43px;
+	color: #969595;
+}
+.loginFormTwelve .lost-password:hover {
+	color: #31aae2;
+}
+/*loginTwelve end*/
+
+footer{
+    background: #313131;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 50px 0px;
+}
+.footer-logo {
+    width: 67px;
+    float: left;
+    margin-right: 20px;
+}
+.footer-text {
+    overflow: hidden;
+}
+footer p span {
+    color: #969595;
+    font-weight: 400;
+}
+
+@media (max-width: 768px){
+    .footer-right{
+        float: none !important;
+    }
+}
+

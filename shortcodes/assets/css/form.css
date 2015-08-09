@@ -1,0 +1,676 @@
+
+/* =========================================================
+FORM STYLE 
+============================================================ */
+form .btn-primary {
+	background-color: #31aae2;
+	border: 1px solid #31aae2 !important;
+}
+
+
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-control {
+  height: 53px;
+  padding: 15px 20px;
+  font-size: 13px;
+  line-height: 24px;
+  
+  border: 1px solid #F1F1F1;
+  border-radius: 0;
+  box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+
+
+/*formOne section start*/
+.formOne .form-control {
+	background-color: #f9f9f9;
+	border: 1px solid transparent;
+}
+.formOne button.btn{
+	font-weight: 700;
+	padding: 11px 32px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.formOne button.btn:focus,
+.formOne button.btn:hover {
+	border-color: #31aae2;
+	background-color: transparent;
+	color: #31aae2;
+}
+/*formOne section end*/
+
+
+
+
+/*formTwo section start*/
+.formTwo .form-group {
+  margin-bottom: 30px;
+}
+.formTwo button.btn{
+	font-weight: 700;
+	padding: 16px 32px;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+.formTwo button.btn:focus,
+.formTwo button.btn:hover {
+	color: #31aae2;
+	border-color: #31aae2;
+	background-color: transparent;
+}
+/*formTwo section end*/
+
+/**********************
+ formThree section start
+*************************/
+
+.formThree .form-control {
+	color: #000;
+	border: 1px solid #313131;
+	text-transform: uppercase;
+}
+.formThree .form-group {
+	margin-bottom: 30px;
+}
+.formThree .form-control:focus {
+	border: 1px solid #337AB7 !important;	
+}
+
+.formThree form button.btn{
+	margin: 0 auto;
+	display: block;
+    padding: 11px 32px;
+    
+    -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+}
+.formThree form .btn-default {
+	background: transparent;
+	border: 1px solid #313131;
+}
+ 
+.formThree form .btn-default:focus, 
+.formThree form .btn-default:hover{
+	background-color: #000	;
+  	color: #fff;
+  	border: 1px solid #000 !important;
+}
+
+/*formThree section end*/
+
+
+
+/**********************
+ formFour section start
+*************************/
+.formFour {
+	background: #f9f9f9;
+}
+.formFour .form-group {
+	margin-bottom: 10px;
+}
+.formFour .form-control {
+	background-color: #313131;
+	border: 1px solid #313131;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+   text-align: center;
+}
+.formFour .form-control:focus {
+	background-color: transparent;
+	border: 1px solid #313131 !important;	
+}
+
+.formFour form button.btn{
+	margin: 0 auto;
+	display: block;
+    padding: 15px 32px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+}
+.formFour .btn-primary {
+	background-color: #31aae2;
+	border: 1px solid #31aae2;
+}
+
+.formFour .btn-primary.focus,
+.formFour .btn-primary:hover{
+	background-color: transparent;
+  	color: #31aae2;
+  	border: 1px solid #31aae2 !important;
+}
+/* formFour section end */
+
+
+/**********************
+ formFive section start
+*************************/
+.formFive {}
+
+.formFive .form-control {
+	border: 1px solid #313131;
+	-webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+   padding: 15px 35px; 
+}
+
+.formFive-pos,.formFive-e,.formFive-m,.formFive-p{
+	position: relative;
+}
+.form-group.i-name:after,
+.form-group.i-email:after,
+.form-group.i-phone:after,
+.form-group.i-message:after{
+	position: absolute;
+  	top: 16px;
+  	font-size: 13px;
+  	font-family: "FontAwesome";	
+  	color: #dadada;
+}
+.formFive .form-group.i-name:after{
+	content: "\f007";
+	left: 14px;
+}
+.formFive .form-group.i-email:after{
+	content: "\f003";
+	left: 14px;
+}
+.formFive .form-group.i-phone:after{
+	content: "\f095";
+	left: 14px;
+}
+.formFive .form-group.i-message:after{
+	content: "\f0e5";
+	left: 25px;
+}
+.formFive .form-control:focus {
+	
+	border: 1px solid #31aae2 !important;	
+}
+
+.formFive form button.btn{
+	margin: 25px auto;
+	display: block;
+    padding: 11px 32px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+}
+
+.formFive .btn-primary.focus,
+.formFive .btn-primary:hover{
+	background-color: transparent;
+  	color: #31aae2;
+  	border: 1px solid #31aae2 !important;
+}
+
+
+/* formFive section end */
+
+
+
+
+/**********************
+ formSix section start
+*************************/
+.formSix {
+	background: #f9f9f9;	
+}
+.formSix .form-control {
+	border-top: 0 ;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #d3d3d3;
+	background: transparent;
+}
+
+
+.formSix .form-control:focus {
+	color: #313131 !important;
+	border-top: 0 !important ;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-bottom: 1px solid #313131 !important;
+	background: transparent;	
+}
+
+.formSix form button.btn{
+	margin: 30px auto;
+	display: block;
+    padding: 11px 32px;
+    -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+}
+
+.formSix .btn-primary.focus,
+.formSix .btn-primary:hover{
+	background-color: transparent;
+  	color: #31aae2;
+  	border: 1px solid #31aae2 !important;
+}
+
+/* formSix section end */
+
+
+
+/**********************
+ formSeven section start
+*************************/
+.formSeven {
+	background: url('../../assets/img/form/forms-7.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.formSeven .form-group {
+	margin-bottom: 0px;
+}
+.formSeven textarea.form-control {
+	border-top: 1px solid transparent;
+}
+
+.formSeven form .col-md-6 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media (min-width: 992px){
+	.formSeven .form-control.nameSeven {
+		border-right: 0px;
+	}
+	.formSeven .form-group.messageSeven {
+		margin-bottom: 0px;
+	}
+	.formSeven .btn-info {
+		border-top: 0px !important;
+	}
+
+}
+
+.formSeven .form-group ::-webkit-input-placeholder{
+    color:    #fff;
+}
+.formSeven .form-group :-moz-placeholder{
+    color:    #fff;
+}
+.formSeven .form-group ::-moz-placeholder{
+    color:    #fff;
+}
+.formSeven .form-group :-ms-input-placeholder{
+    color:    #fff;
+}
+
+
+
+.formSeven .form-control {	
+	border: 1px solid #fff;
+	background: transparent;
+	
+	
+}
+
+
+.formSeven .form-control:focus {
+	
+	
+	background: transparent;	
+}
+
+.formSeven form button.btn{
+	margin: 0 auto;
+	display: block;
+    padding: 15px 32px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+   	font-weight: normal;
+}
+.formSeven .btn-info {
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.formSeven .btn-info.focus,
+.formSeven .btn-info:hover{
+	background-color: #fff;
+  	color: #313131;
+  	border: 1px solid #fff !important;
+  	border-top: 0px !important;
+}
+@media (max-width: 992px){
+	.formSeven .btn-info.focus,
+	.formSeven .btn-info:hover{
+  	border: 1px solid #fff !important;
+	}
+}
+/* formSeven section end */
+
+
+/* formEight section start */
+.formEight {
+	background: url('../../assets/img/form/forms-bg-8.jpg') no-repeat center center;
+	background-size: cover;
+}
+.formEight-contact-info {
+	padding-top: 20px;
+}
+.formEight-contact-info p {
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.formEight-contact-info address {
+	margin-top: 30px;
+}
+
+.formEight-contact-info address ul li {
+	color: #caddee;
+	margin-bottom: 30px;
+}
+.formEight-contact-info address ul li a {
+	color: #caddee;
+}
+.formEight-contact-info address ul li a:hover {
+	color: #fff;
+}
+
+
+.formEight-contact-info address ul li i {
+	margin-right: 10px;
+}
+
+
+
+.formEight-contact-social ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.formEight-contact-social ul li:last-child{
+	margin-right: 0px;
+}
+.formEight-contact-social ul li a{
+	font-size: 16px;
+  	color: #c7dcea;
+  	-webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+}
+.formEight-contact-social ul li a:hover,
+.formEight-contact-social ul li a:hover{
+	color: #fff;
+}
+
+.formEight-right-1,
+.formEight-right-2,
+.formEight-right-3{
+	position: relative;
+}
+.formEight-right-1 .i-user:after,
+.formEight-right-2 .i-mail:after,
+.formEight-right-3 .i-message:after{
+	position: absolute;
+  	right: 15px;
+  	top: 12px;
+  	font-family: "FontAwesome";
+  	color: #fff;
+  	left: auto;
+}
+.formEight-right-3 .i-mail:after{
+	content: "\f003";
+}
+.formEight-right-3 .i-message:after{
+	content: "\f0e5";
+}
+
+
+
+
+
+.formEight-right {}
+.formEight-right .form-group {
+	margin-bottom: 10px;
+}
+.formEight-right .form-group ::-webkit-input-placeholder{
+    color:    #fff;
+}
+.formEight-right .form-group :-moz-placeholder{
+    color:    #fff;
+}
+.formEight-right .form-group ::-moz-placeholder{
+    color:    #fff;
+}
+.formEight-right .form-group :-ms-input-placeholder{
+    color:    #fff;
+}
+
+
+.formEight-right .form-control {	
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	-webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+}
+.formEight-right .form-control:focus{
+	
+	border: 1px solid #313131 !important;
+	background: transparent;	
+}
+
+.formEight-right button.btn{
+	margin: 0 auto;
+	display: block;
+    padding: 15px 32px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+   	  font-weight: normal;
+}
+.formEight-right .btn-default {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.formEight-right .btn-default:hover,
+.formEight-right .btn-default.focus {
+  	color: #313131;
+  	border: 1px solid #313131 !important;
+  	
+}
+/**formEight section end*/
+
+/***********************
+formNine section start
+**************************/
+.formNine {
+	background: url('../../assets/img/form/forms-9.jpg') no-repeat center center;
+	background-size: cover;
+}
+.formNine .form-bg {
+	background: rgba(68, 68, 65, 0.16);
+	padding: 20px;
+}
+.formNine form {
+	background-color: rgba(68, 68, 65, 0.85);
+  	padding: 20px;
+}
+.formNine .form-control {	
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #61615e;
+	background: transparent;
+	color: #fff;
+	-webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+}
+.formNine .form-control:focus {
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-bottom: 1px solid #313131 !important;
+	background: transparent;	
+}
+
+.formNine button.btn{
+	display: block;
+    padding: 11px 32px;
+    -webkit-transition: all 0.3s ease 0s;
+   	-moz-transition: all 0.3s ease 0s;
+   	-o-transition: all 0.3s ease 0s;
+   	transition: all 0.3s ease 0s;
+   	margin: 30px 0px;
+}
+.formNine .btn-white {
+	background-color: #fff;
+	color: #313131;
+	border: 1px solid #fff;
+}
+
+.formNine .btn-white.focus,
+.formNine .btn-white:hover {
+	background-color: transparent;
+  	color: #fff;
+  	border: 1px solid #fff !important;
+  	
+}
+
+/** formNine section end **/
+
+/***********************
+formTen section start
+**************************/
+.formTen {
+	background: url('../../assets/img/form/forms-10.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.formTen .form-control {
+	border: 1px solid #fff;
+	-webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+   background-color: transparent;
+   padding: 15px 35px; 
+}
+
+
+.formTen .form-control:focus {
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #0B0A0A !important;	
+}
+
+.formTen form button.btn{
+	margin: 0 auto;
+	display: block;
+    padding: 11px 32px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+}
+
+.formTen .btn-primary.focus,
+.formTen .btn-primary:hover{
+	background-color: transparent;
+  	color: #31aae2;
+  	border: 1px solid #31aae2 !important;
+}
+
+
+.formTen-pos,.formTen-e,.formTen-m,.formTen-p{
+	position: relative;
+}
+
+
+
+.formTen .form-group.i-name:after{
+	content: "\f007";
+	left: 25px;
+}
+.formTen .form-group.i-email:after{
+	content: "\f003";
+	left: 14px;
+}
+.formTen .form-group.i-phone:after{
+	content: "\f095";
+	left: 14px;
+}
+.formTen .form-group.i-message:after{
+	content: "\f0e5";
+	left: 14px;
+}
+
+
+
+/** formTen section end **/
+
+
+
+footer{
+	background: #313131;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 50px 0px;
+}
+.footer-logo {
+	width: 67px;
+	float: left;
+	margin-right: 20px;
+}
+.footer-text {
+	overflow: hidden;
+}
+footer p span {
+	color: #969595;
+	font-weight: 400;
+}
+
+@media (max-width: 768px){
+	.footer-right{
+		float: none !important;
+	}
+}
+
